@@ -1,7 +1,5 @@
-''' A Module Description '''
+''' A Controller defines controller methods which handle http requests '''
 
 class BlogController:
-    ''' Class Docstring Description '''
-
     def show(self):
         return view('blog')
